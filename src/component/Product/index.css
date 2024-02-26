@@ -1,0 +1,102 @@
+[data-theme ='dark']{
+    --product-bg:#181920;
+    --btn-bg-one:#FC79C3;
+    --btn-bg-two:#FBB569;
+    --select-color:white;
+    --select-bg:#272935;
+    --border-select:1px solid white;
+    --lebel-color:white;
+      --input-bg:#272935;
+     }
+    [data-theme ='ligth']{
+      --product-bg:#EEF4FD;
+      --btn-bg-one:#057AFF;
+      --btn-bg-two:#C149AD;
+      --select-color:#272935;
+      --border-select:none;
+      --select-bg:white;
+      --lebel-color:#272935;
+      --input-bg:white;
+     }
+    
+  .filter-container {
+      width: 1300px;
+      background-color:var(--product-bg);
+      height: 400px;
+      padding: 40px;
+      margin: 100px auto;
+     
+      border-radius:10px;
+  }
+  .search-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+  }
+  .card-wrapper-product {
+      flex-wrap: wrap;
+  }
+  .card-product{
+      margin-top: 30px;
+  }
+  #btn-one {
+      background: var( --btn-bg-one);
+  
+  }
+  #btn-two {
+      background: var(--btn-bg-two);
+  
+  }
+  .checkbox-wrapper{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 300px;
+      margin-top: 50px;
+  }
+  .btn-product {
+      padding: 10px;
+      width: 280px;
+      background-color: blue;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      margin-top: 50px;
+    }
+  
+    .select-wrapper{
+     width: 900px;
+     display: flex;
+     gap: 30px;
+    }
+    .select-container{
+        width: 33%;
+    }
+    select {
+        width: 100%;
+        padding: 12px;
+        border: var(--border-select);
+        border-radius: 10px;
+        outline: none;
+        margin-top: 15px;
+        background-color:var(--select-bg);
+        color: var(--select-color);
+    }
+    
+  
+  .input-text {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 0px;
+    background: var(--input-bg);
+    color: rgb(74, 72, 72);
+  }
+  .input-wrapper {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  label {
+      color: var(--lebel-color);
+      font-size: 16px;
+  }

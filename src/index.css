@@ -1,0 +1,13 @@
+img {
+    border-radius: 15px;
+    width: 350px;
+    height: 450px;
+  }
+  button:hover {
+    transform: translate(1.1px,1.1px);
+    background-color: rgb(53, 53, 241);
+  }
+  .loader-container {
+     margin: 100px auto;
+     text-align: center;
+  }

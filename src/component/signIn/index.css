@@ -1,0 +1,77 @@
+[data-theme="ligth"] {
+    --bg-color: white;
+    --text-color1:white;
+    --btn-color: #057AFF;
+    --btn1-color:#463AA1;
+    --title-color:#414558;
+     --border: 1px solid lightgrey;
+     --span-color:black;
+     --link-bg:#057AFF;
+  
+  }
+  [data-theme="dark"] {
+    --bg-color: #272935;
+    --border: 1px solid lightgrey;
+    --text-color1:#272935;
+    --btn-color: #FF7AC6;
+    --btn1-color:#BF95F9;
+    --title-color:white;
+    --input-bg:#272935;
+    --span-color:white;
+    --link-bg:#FF7AC6;
+  }
+  .input-container {
+    width: 100%;
+    width: 384px;
+    height: 484;
+    padding: 32px;
+    border-radius: 20px;
+    margin: 100px auto;
+    background-color: var(--bg-color);
+    -webkit-box-shadow: -1px 3px 7px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: -1px 3px 7px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: -1px 3px 7px 0px rgba(34, 60, 80, 0.2);
+  }
+  input {
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    border:var(--border);
+    outline-style: none;
+    background-color: var(--input-bg);
+  }
+  .btnLogin {
+    background-color:var(--btn-color);
+    border: none;
+    color: var(--text-color1);
+  }
+  .btnAcc {
+    background-color: var(--btn1-color);
+    border: none;
+    color: var(--text-color1);
+  
+  }
+  .input-container span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    color: var(--span-color);
+  }
+  .input-container span a {
+    color:var(--link-bg);
+  }
+  label p {
+    font-size: 16px;
+    color: var(--title-color);
+  }
+  .input-container h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+  .input-container h1 {
+  color:var(--title-color)
+  }
